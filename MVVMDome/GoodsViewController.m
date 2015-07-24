@@ -91,7 +91,7 @@
     }];
     
     //请求错误的时候 则执行
-    [[[RACObserve(self.viewModel, requestError) ignore:nil] deliverOn:RACScheduler.mainThreadScheduler] subscribeNext:^(NSError *error) {
+    [[[RACObserve(self.viewModel, isRequestError) ignore:nil] deliverOn:RACScheduler.mainThreadScheduler] subscribeNext:^(NSError *error) {
         @strongify(self);
         NSLog(@"请求错误");
     }];
