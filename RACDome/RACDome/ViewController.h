@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIButton *secendButton;
+@property (weak, nonatomic) IBOutlet UIButton *RAC3Button;
 
 @end
 

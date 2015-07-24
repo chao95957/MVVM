@@ -10,6 +10,9 @@
 #import <ReactiveCocoa.h>
 #import "fristViewController.h"
 #import "SecondViewController.h"
+#import "ThreeViewModel.h"
+#import "ThreeViewController.h"
+
 
 @interface ViewController ()
 
@@ -28,8 +31,8 @@
 //    [RACObserve(self, username) subscribeNext:^(NSString *newName) {
 //        NSLog(@"%@",newName);
 //    }];
-    self.username = @"1";
-    self.username = @"3";
+//    self.username = @"1";
+//    self.username = @"3";
     
     [[RACObserve(self, username) filter:^BOOL(NSString *newName) {
         return [newName hasPrefix:@"j"];    //给字符串加条件
@@ -37,7 +40,7 @@
         NSLog(@"00%@",newName);             //返回相应的方法
     }];
     
-    self.username = @"jsdfwer";
+//    self.username = @"jsdfwer";
     
     UILabel *textLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 100, 320, 100)];
     textLabel.text = _username;
@@ -52,6 +55,13 @@
 //    }];
 //
     self.secendButton.rac_command = [self getSecandButtonCommand];
+    
+    RACSignal *buttonSignal = self.secendButton.rac_command.errors;
+    [buttonSignal subscribeError:^(NSError *error) {
+        NSLog(@"执行");
+    }];
+    
+    self.RAC3Button.rac_command = [self ViewcontrollerAndViewModelCommand];
     
 }
 
@@ -72,6 +82,7 @@
         [self.navigationController pushViewController:rvc animated:YES];
         return [[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
             [subscriber sendNext:@"1"];
+            [subscriber sendError:nil];
             [subscriber sendCompleted];
             return [RACDisposable disposableWithBlock:^{
                 
@@ -83,6 +94,27 @@
     
     return command;
 }
+
+- (RACCommand *)ViewcontrollerAndViewModelCommand
+{
+    @weakify(self)
+    RACCommand *command = [[RACCommand alloc]initWithSignalBlock:^RACSignal *(id input) {
+       @strongify(self)
+        //在这里初始化viewmodel
+        ThreeViewModel *viewmodel = [[ThreeViewModel alloc]init];
+        
+        ThreeViewController *rvc = [[ThreeViewController alloc]initWithViewModel:viewmodel];
+        
+        [self.navigationController pushViewController:rvc animated:YES];
+        
+        return [RACSignal empty];
+    }];
+    return command;
+}
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

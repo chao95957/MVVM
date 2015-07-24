@@ -69,6 +69,7 @@
     RACSignal *signUpActiveSignal = [RACSignal combineLatest:@[usernameSignal,passwordSignal] reduce:^id(NSNumber* usernameValid,NSNumber* passwordValid){
         return @([usernameValid boolValue]&&[passwordValid boolValue]);
     }];
+    
     //信号聚合后 做处理事件
     [signUpActiveSignal subscribeNext:^(NSNumber* x) {
         self.activeButton.selected = [x boolValue];
@@ -89,8 +90,6 @@
     subscribeNext:^(id x) {
         NSLog(@"click Button");
     }];
-    
-    
     
 }
 

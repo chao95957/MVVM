@@ -20,6 +20,9 @@
 		770F5F871B53ADAE00749EAB /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770F5F851B53ADAE00749EAB /* SecondViewController.xib */; };
 		7792BBE41B44E7CA00554F6F /* fristViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7792BBE21B44E7CA00554F6F /* fristViewController.m */; };
 		7792BBE51B44E7CA00554F6F /* fristViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7792BBE31B44E7CA00554F6F /* fristViewController.xib */; };
+		77D355CD1B5F6B4400E8CFC3 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D355CB1B5F6B4400E8CFC3 /* ThreeViewController.m */; };
+		77D355CE1B5F6B4400E8CFC3 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D355CC1B5F6B4400E8CFC3 /* ThreeViewController.xib */; };
+		77D355D41B5F6BBC00E8CFC3 /* ThreeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D355D31B5F6BBC00E8CFC3 /* ThreeViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,11 @@
 		7792BBE11B44E7CA00554F6F /* fristViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fristViewController.h; sourceTree = "<group>"; };
 		7792BBE21B44E7CA00554F6F /* fristViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fristViewController.m; sourceTree = "<group>"; };
 		7792BBE31B44E7CA00554F6F /* fristViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fristViewController.xib; sourceTree = "<group>"; };
+		77D355CA1B5F6B4400E8CFC3 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		77D355CB1B5F6B4400E8CFC3 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		77D355CC1B5F6B4400E8CFC3 /* ThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
+		77D355D21B5F6BBC00E8CFC3 /* ThreeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewModel.h; sourceTree = "<group>"; };
+		77D355D31B5F6BBC00E8CFC3 /* ThreeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewModel.m; sourceTree = "<group>"; };
 		BD657492CEA533BB814C4E54 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EC51C09522E81579639734DE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -109,16 +117,10 @@
 		7708D46B1B44D22900948AFE /* RACDome */ = {
 			isa = PBXGroup;
 			children = (
+				77D355D11B5F6B6C00E8CFC3 /* viewModel */,
+				77D355CF1B5F6B5200E8CFC3 /* viewcontroller */,
 				7708D4701B44D22900948AFE /* AppDelegate.h */,
 				7708D4711B44D22900948AFE /* AppDelegate.m */,
-				7708D4761B44D22900948AFE /* ViewController.h */,
-				7708D4771B44D22900948AFE /* ViewController.m */,
-				770F5F831B53ADAE00749EAB /* SecondViewController.h */,
-				770F5F841B53ADAE00749EAB /* SecondViewController.m */,
-				770F5F851B53ADAE00749EAB /* SecondViewController.xib */,
-				7792BBE11B44E7CA00554F6F /* fristViewController.h */,
-				7792BBE21B44E7CA00554F6F /* fristViewController.m */,
-				7792BBE31B44E7CA00554F6F /* fristViewController.xib */,
 				7708D4791B44D22900948AFE /* Main.storyboard */,
 				7708D47C1B44D22900948AFE /* Images.xcassets */,
 				7708D47E1B44D22900948AFE /* LaunchScreen.xib */,
@@ -152,6 +154,33 @@
 				7708D48A1B44D22900948AFE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77D355CF1B5F6B5200E8CFC3 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				7708D4761B44D22900948AFE /* ViewController.h */,
+				7708D4771B44D22900948AFE /* ViewController.m */,
+				77D355CA1B5F6B4400E8CFC3 /* ThreeViewController.h */,
+				77D355CB1B5F6B4400E8CFC3 /* ThreeViewController.m */,
+				77D355CC1B5F6B4400E8CFC3 /* ThreeViewController.xib */,
+				770F5F831B53ADAE00749EAB /* SecondViewController.h */,
+				770F5F841B53ADAE00749EAB /* SecondViewController.m */,
+				770F5F851B53ADAE00749EAB /* SecondViewController.xib */,
+				7792BBE11B44E7CA00554F6F /* fristViewController.h */,
+				7792BBE21B44E7CA00554F6F /* fristViewController.m */,
+				7792BBE31B44E7CA00554F6F /* fristViewController.xib */,
+			);
+			name = viewcontroller;
+			sourceTree = "<group>";
+		};
+		77D355D11B5F6B6C00E8CFC3 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				77D355D21B5F6BBC00E8CFC3 /* ThreeViewModel.h */,
+				77D355D31B5F6BBC00E8CFC3 /* ThreeViewModel.m */,
+			);
+			name = viewModel;
 			sourceTree = "<group>";
 		};
 		AF78E58F952C03FA008F2C3E /* Frameworks */ = {
@@ -249,6 +278,7 @@
 				7708D47D1B44D22900948AFE /* Images.xcassets in Resources */,
 				7792BBE51B44E7CA00554F6F /* fristViewController.xib in Resources */,
 				770F5F871B53ADAE00749EAB /* SecondViewController.xib in Resources */,
+				77D355CE1B5F6B4400E8CFC3 /* ThreeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,11 +330,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				770F5F861B53ADAE00749EAB /* SecondViewController.m in Sources */,
+				77D355CD1B5F6B4400E8CFC3 /* ThreeViewController.m in Sources */,
 				7708D4721B44D22900948AFE /* AppDelegate.m in Sources */,
 				7708D46F1B44D22900948AFE /* main.m in Sources */,
 				7708D4781B44D22900948AFE /* ViewController.m in Sources */,
 				7792BBE41B44E7CA00554F6F /* fristViewController.m in Sources */,
 				7708D4751B44D22900948AFE /* RACDome.xcdatamodeld in Sources */,
+				77D355D41B5F6BBC00E8CFC3 /* ThreeViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
