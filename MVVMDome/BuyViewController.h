@@ -7,14 +7,7 @@
 //
 
 #import "BaseListViewController.h"
-#import "BuyListViewModel.h"
 
 @interface BuyViewController : BaseListViewController
-
-
-@property (nonatomic,strong) BuyListViewModel *buyListViewModel;
-
-@property (weak, nonatomic) IBOutlet UITableView *tableview;
-
 
 @end

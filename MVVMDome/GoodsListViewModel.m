@@ -79,7 +79,7 @@
         
     }
      error:^(NSError *error) {
-         self.isRequestError = @(YES);
+         self.requestError = error;
      }];
     
     

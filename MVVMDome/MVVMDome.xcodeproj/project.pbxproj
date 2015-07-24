@@ -44,13 +44,6 @@
 		775F885B1B4E4B04004453AD /* GoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 775F88591B4E4B04004453AD /* GoodsDetailViewController.m */; };
 		775F885C1B4E4B04004453AD /* GoodsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775F885A1B4E4B04004453AD /* GoodsDetailViewController.xib */; };
 		775F885F1B4E54C2004453AD /* GoodsDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 775F885E1B4E54C2004453AD /* GoodsDetailViewModel.m */; };
-		777D2EF91B5785470007D970 /* BuyListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D2EF81B5785470007D970 /* BuyListViewModel.m */; };
-		777D2EFC1B5785780007D970 /* BuysCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D2EFB1B5785780007D970 /* BuysCellViewModel.m */; };
-		777D2EFF1B5785A40007D970 /* BuyDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D2EFE1B5785A40007D970 /* BuyDetailViewModel.m */; };
-		777D2F021B57860E0007D970 /* BuyListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D2F011B57860E0007D970 /* BuyListModel.m */; };
-		777D2F051B57861C0007D970 /* BuyDetilModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D2F041B57861C0007D970 /* BuyDetilModel.m */; };
-		777D2F081B57867C0007D970 /* BuyListRequestOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D2F071B57867C0007D970 /* BuyListRequestOperator.m */; };
-		777D2F0B1B578E9C0007D970 /* LZCNetworkCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D2F0A1B578E9C0007D970 /* LZCNetworkCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,20 +126,6 @@
 		775F885A1B4E4B04004453AD /* GoodsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodsDetailViewController.xib; sourceTree = "<group>"; };
 		775F885D1B4E54C2004453AD /* GoodsDetailViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsDetailViewModel.h; sourceTree = "<group>"; };
 		775F885E1B4E54C2004453AD /* GoodsDetailViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsDetailViewModel.m; sourceTree = "<group>"; };
-		777D2EF71B5785470007D970 /* BuyListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyListViewModel.h; sourceTree = "<group>"; };
-		777D2EF81B5785470007D970 /* BuyListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyListViewModel.m; sourceTree = "<group>"; };
-		777D2EFA1B5785780007D970 /* BuysCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuysCellViewModel.h; sourceTree = "<group>"; };
-		777D2EFB1B5785780007D970 /* BuysCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuysCellViewModel.m; sourceTree = "<group>"; };
-		777D2EFD1B5785A40007D970 /* BuyDetailViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyDetailViewModel.h; sourceTree = "<group>"; };
-		777D2EFE1B5785A40007D970 /* BuyDetailViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyDetailViewModel.m; sourceTree = "<group>"; };
-		777D2F001B57860E0007D970 /* BuyListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyListModel.h; sourceTree = "<group>"; };
-		777D2F011B57860E0007D970 /* BuyListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyListModel.m; sourceTree = "<group>"; };
-		777D2F031B57861C0007D970 /* BuyDetilModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyDetilModel.h; sourceTree = "<group>"; };
-		777D2F041B57861C0007D970 /* BuyDetilModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyDetilModel.m; sourceTree = "<group>"; };
-		777D2F061B57867C0007D970 /* BuyListRequestOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyListRequestOperator.h; sourceTree = "<group>"; };
-		777D2F071B57867C0007D970 /* BuyListRequestOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyListRequestOperator.m; sourceTree = "<group>"; };
-		777D2F091B578E9C0007D970 /* LZCNetworkCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZCNetworkCenter.h; sourceTree = "<group>"; };
-		777D2F0A1B578E9C0007D970 /* LZCNetworkCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZCNetworkCenter.m; sourceTree = "<group>"; };
 		88EF9BC151F0FD677DE6D933 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F9F98D4B85B4039680E6FF31 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -257,8 +236,6 @@
 				775F88341B4AB154004453AD /* BaseRequstOperator.m */,
 				775F88441B4BEEAF004453AD /* common */,
 				775F88431B4BEE9E004453AD /* list */,
-				777D2F091B578E9C0007D970 /* LZCNetworkCenter.h */,
-				777D2F0A1B578E9C0007D970 /* LZCNetworkCenter.m */,
 			);
 			name = "网络层";
 			sourceTree = "<group>";
@@ -274,8 +251,6 @@
 		773A6CEF1B4A60FD008F9DD6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				775F882A1B4AAA21004453AD /* BaseServerDataListViewModel.h */,
-				775F882B1B4AAA21004453AD /* BaseServerDataListViewModel.m */,
 				775F88211B4AA33A004453AD /* Home ViewModel */,
 				775F88201B4AA331004453AD /* Goods ViewModel */,
 				775F881F1B4AA325004453AD /* Buy ViewModel */,
@@ -428,12 +403,6 @@
 		775F881F1B4AA325004453AD /* Buy ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				777D2EF71B5785470007D970 /* BuyListViewModel.h */,
-				777D2EF81B5785470007D970 /* BuyListViewModel.m */,
-				777D2EFA1B5785780007D970 /* BuysCellViewModel.h */,
-				777D2EFB1B5785780007D970 /* BuysCellViewModel.m */,
-				777D2EFD1B5785A40007D970 /* BuyDetailViewModel.h */,
-				777D2EFE1B5785A40007D970 /* BuyDetailViewModel.m */,
 			);
 			name = "Buy ViewModel";
 			sourceTree = "<group>";
@@ -441,6 +410,8 @@
 		775F88201B4AA331004453AD /* Goods ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				775F882A1B4AAA21004453AD /* BaseServerDataListViewModel.h */,
+				775F882B1B4AAA21004453AD /* BaseServerDataListViewModel.m */,
 				775F88301B4AADBC004453AD /* GoodsCellViewModel.h */,
 				775F88311B4AADBC004453AD /* GoodsCellViewModel.m */,
 				775F882D1B4AAD68004453AD /* GoodsListViewModel.h */,
@@ -475,10 +446,6 @@
 		775F88241B4AA372004453AD /* Buy Model */ = {
 			isa = PBXGroup;
 			children = (
-				777D2F001B57860E0007D970 /* BuyListModel.h */,
-				777D2F011B57860E0007D970 /* BuyListModel.m */,
-				777D2F031B57861C0007D970 /* BuyDetilModel.h */,
-				777D2F041B57861C0007D970 /* BuyDetilModel.m */,
 			);
 			name = "Buy Model";
 			sourceTree = "<group>";
@@ -526,8 +493,6 @@
 			children = (
 				775F88361B4B6215004453AD /* GoodsListRequestOperator.h */,
 				775F88371B4B6215004453AD /* GoodsListRequestOperator.m */,
-				777D2F061B57867C0007D970 /* BuyListRequestOperator.h */,
-				777D2F071B57867C0007D970 /* BuyListRequestOperator.m */,
 			);
 			name = list;
 			sourceTree = "<group>";
@@ -692,7 +657,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				773A6CCA1B4A5E0F008F9DD6 /* AppDelegate.m in Sources */,
-				777D2F0B1B578E9C0007D970 /* LZCNetworkCenter.m in Sources */,
 				775F88541B4E48BE004453AD /* GoodDetailModel.m in Sources */,
 				773A6D261B4A6FDB008F9DD6 /* InformationViewController.m in Sources */,
 				773A6D201B4A6F23008F9DD6 /* MoreViewController.m in Sources */,
@@ -701,18 +665,13 @@
 				773A6D021B4A6D3E008F9DD6 /* BaseNavigationController.m in Sources */,
 				775F88351B4AB154004453AD /* BaseRequstOperator.m in Sources */,
 				775F88411B4B7CBA004453AD /* GoodsListTableViewCell.m in Sources */,
-				777D2EF91B5785470007D970 /* BuyListViewModel.m in Sources */,
 				773A6CFC1B4A6CC6008F9DD6 /* BaseListViewController.m in Sources */,
 				773A6D1B1B4A6F09008F9DD6 /* BuyViewController.m in Sources */,
 				773A6D161B4A6EF5008F9DD6 /* GoodsViewController.m in Sources */,
-				777D2EFC1B5785780007D970 /* BuysCellViewModel.m in Sources */,
 				775F885B1B4E4B04004453AD /* GoodsDetailViewController.m in Sources */,
 				775F88321B4AADBC004453AD /* GoodsCellViewModel.m in Sources */,
 				773A6CC71B4A5E0F008F9DD6 /* main.m in Sources */,
 				775F88471B4BEF41004453AD /* GoodsDetailRequestOperator.m in Sources */,
-				777D2F021B57860E0007D970 /* BuyListModel.m in Sources */,
-				777D2F051B57861C0007D970 /* BuyDetilModel.m in Sources */,
-				777D2F081B57867C0007D970 /* BuyListRequestOperator.m in Sources */,
 				773A6CD01B4A5E0F008F9DD6 /* ViewController.m in Sources */,
 				773A6D111B4A6EDC008F9DD6 /* HomeViewController.m in Sources */,
 				773A6D051B4A6D5C008F9DD6 /* BaseViewController.m in Sources */,
@@ -721,7 +680,6 @@
 				773A6CCD1B4A5E0F008F9DD6 /* MVVMDome.xcdatamodeld in Sources */,
 				775F88381B4B6215004453AD /* GoodsListRequestOperator.m in Sources */,
 				775F883B1B4B64B8004453AD /* searchModel.m in Sources */,
-				777D2EFF1B5785A40007D970 /* BuyDetailViewModel.m in Sources */,
 				775F885F1B4E54C2004453AD /* GoodsDetailViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

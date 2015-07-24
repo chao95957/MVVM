@@ -9,12 +9,15 @@
 #import <Foundation/Foundation.h>
 #import <AFNetworking.h>
 #import <ReactiveCocoa.h>
-#import "LZCNetworkCenter.h"
+
 
 @interface BaseRequstOperator : NSObject
 
 @property (nonatomic, strong) AFHTTPRequestOperationManager *afRequestManager;
 
+
 - (void)addAppNameToUserAgent:(NSMutableURLRequest *)objURLRequest;
+
+
 
 @end

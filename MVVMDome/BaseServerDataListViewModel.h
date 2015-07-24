@@ -15,7 +15,7 @@
 @property (nonatomic, assign) NSInteger pageNum;        //页 个数
 
 @property (nonatomic, strong) NSNumber *isNoMore;       //是没有更多数据
-@property (nonatomic, strong) NSNumber *isRequestError;    //请求错误
+@property (nonatomic, strong) NSError *requestError;    //请求错误
 @property (nonatomic, strong) NSNumber *appendItemCount;//拼接个数
 
 //item的个数
